@@ -6,25 +6,37 @@
     <title>Tiny Thali</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 
 </head>
 <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
     <header class="cabecalho">
         
-        <figure>
+        <figure style="margin: 1% 0 1% 5%">
             <img src="./logo tiny thali.png" alt="Logo">
 
         </figure>
         <nav style="margin-right: 5%">
-            <a href="index.html"; style="color:#c663e2 ";>Home</a>
-            <a href="sobre.html"; style="color:#8a868b">Sobre</a>
-            <a href="contatos.html"; style="color:#8a868b">Contato</a>
+            <a href="index.html"; class="btn" style="color:#c663e2">Home</a>
+            <a href="produtos.html"; class="btn" style="color:#8a868b">Produtos</a>
+            <a href="sobre.html"; class="btn" style="color:#8a868b">Sobre</a>
+            <a href="contatos.html"; class="btn" style="color:#8a868b">Contato</a>
         </nav>
+
+        <div class="dropdown">
+            <button type="button" class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown">Menu</button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="index.html">Home</a></li>
+                <li><a class="dropdown-item" href="produtos.html">Produtos</a></li>
+                <li><a class="dropdown-item" href="sobre.html">Sobre</a></li>
+                <li><a class="dropdown-item" href="contatos.html">Contato</a></li>
+            </ul>
+        </div>
     </header>
     <main>
         <section>
             <div class="banner">
-                <h1>TINY THALI</h1>
                 <h2>Peças com estilo e cuidado</h2>
                 <p>Peças artesanais de tricô e crochê, feitas com carinho e atenção a cada detalhe. Cada criação é única, assim como quem escolhe usá-la.</p>
                 <button>Encomende agora!</button>
@@ -47,17 +59,17 @@
         </article>
 
         <section class="cards">
-            <div class="card">
+            <div id="card">
                 <h2></h2>
                 <h1>Tricô</h1>
                 <p>Peças feitas à mão, ponto a ponto.</p>
             </div>
-            <div class="card">
+            <div id="card">
                 <h2></h2>
                 <h1>Crochê</h1>
                 <p>Fios que ganham forma e personalidade.</p>
             </div>
-            <div class="card">
+            <div id="card">
                 <h2></h2>
                 <h1>Encomendas</h1>
                 <p>Crie uma peça do seu jeitinho.</p>
