@@ -352,6 +352,30 @@ form h2{
     }
 }
 
+
+.cards-comentarios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+
+#card-comentario {
+    background-color: white;
+    margin: 30px;
+    padding:20px;
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    padding-bottom: 3%;
+    padding-left: 2%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.alert {
+    margin: 0 10% 0 0;
+}
+
 footer {
     padding: 2%;
     text-align: center;
