@@ -56,6 +56,7 @@ ul a:hover {
     background-color: #b983c8;
 }
 
+
 @media screen and (max-width: 720px) {
     .cabecalho nav {
         display: none;
@@ -159,6 +160,12 @@ ul a:hover {
 
 }
 
+.imagens img:hover {
+    filter: brightness(90%);
+    cursor: pointer;
+
+}
+
 @media screen and (max-width:720px) {
     .imagens {
         justify-content: center;
@@ -206,6 +213,26 @@ article h2{
 @media screen and (max-width: 720px) {
     article {
         margin-top: 10%;
+    }
+}
+
+#perfil {
+    display: block;
+    width: 24%;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 50%;
+    margin: auto;
+    border: solid 5px;
+    border-color: #4f285b;
+}
+
+
+@media screen and (max-width: 720px) {
+    #perfil {
+        margin-top: 10%;
+        height: 80%;
+        width: 80%;
     }
 }
 
@@ -374,6 +401,31 @@ form h2{
 
 .alert {
     margin: 0 10% 0 0;
+}
+
+.voltar-cima {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    margin-right: 2%;
+    margin-bottom: 4%;
+    border-radius: 30px;
+    z-index: 3;
+    padding-top: 2%;
+    font-size:larger;
+    background-color:#db8cf0;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+@media screen and (min-width:720px) {
+    .voltar-cima {
+        display: none;
+    }
+
 }
 
 footer {
