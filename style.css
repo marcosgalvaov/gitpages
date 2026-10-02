@@ -216,7 +216,13 @@ article h2{
     }
 }
 
+.container {
+    position: relative;
+    margin-bottom: 0;
+}
+
 #perfil {
+    position: relative;
     display: block;
     width: 24%;
     border-radius: 15px;
