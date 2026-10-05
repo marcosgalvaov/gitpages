@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+
+{% block title %} 
+    Tiny Thali 
+{% endblock %}
+
+{% block main %}
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <main>
+        <section>
+            <div class="banner">
+                <h1>NOSSA PRODUÇÃO</h1>
+                <h2>Conheça nossos produtos</h2>
+                <button onclick="window.location.href='/contato'">Encomende agora!</button>
+            </div>
+        </section>
+
+        <div class="voltar-cima">
+            <a class="nav-link" href="#topo">↑</a>
+        </div>
+
+        <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+
+        <nav class="navbar navbar-expand bg-white sticky-top">
+            <div class="container-fluid">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section1">Peças de Roupa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section2">Pelúcias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section3">Bolsas</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <article id="section1">
+            <h1 style="font-weight: bold;">Peças de roupa ♡</h1>
+            <h2></h2>
+            <p>Peças para se vestir com estilo!</p>
+        </article>
+
+        <section class="imagens">
+            <figure>
+                <img src="../static/img/imagem banner.jpeg" alt="imagem 1">
+                <img src="../static/img/imagem3.jpeg" alt="imagem 3">
+                <img src="../static/img/bandana2.jpeg" alt="bandana2">
+                <img src="../static/img/bandana3.jpeg" alt="bandana3">
+            </figure>
+        </section>
+
+        <article id="section2">
+            <h1 style="font-weight: bold;">Pelúcias ♡</h1>
+            <h2></h2>
+            <p>Amigurumis e pelúcias para todo mundo!</p>
+        </article>
+
+        <section class="imagens">
+            <figure>
+                <img src="../static/img/imagem2.jpeg" alt="imagem 2">
+                <img src="../static/img/imagem4.jpeg" alt="imagem4">
+                <img src="../static/img/flor4.jpeg" alt="flor4">
+                <img src="../static/img/pelu3.jpeg" alt="pelu3">
+            </figure>
+        </section>
+
+        <article id="section3">
+            <h1 style="font-weight: bold;">Bolsas ♡</h1>
+            <h2></h2>
+            <p>Bolsas para levar a vida!</p>
+        </article>
+
+        <section class="imagens">
+            <figure>
+                <img src="../static/img/imagem5.jpeg" alt="bolsa1">
+                <img src="../static/img/bolsa2.jpeg" alt="bolsa2">
+                <img src="../static/img/bolsa3.jpeg" alt="bolsa3">
+                <img src="../static/img/bolsa4.jpeg" alt="bolsa4">
+            </figure>
+        </section>
+    </main>
+
+{% endblock %}

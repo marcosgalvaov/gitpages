@@ -5,6 +5,7 @@ main{
     background-color: rgb(248, 225, 255);
 }
 
+
 @media screen and (max-width:720px) {
     article, .imagens, .cards {
         text-align: center;

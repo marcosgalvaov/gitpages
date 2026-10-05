@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+
+{% block title %} 
+    Tiny Thali 
+{% endblock %}
+
+{% block main %}
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    
+        <section>
+            <div class="banner">
+                <h2>Peças com estilo e cuidado</h2>
+                <p>Peças artesanais de tricô e crochê, feitas com carinho e atenção a cada detalhe. Cada criação é única, assim como quem escolhe usá-la.</p>
+                <button onclick="window.location.href='/contato'">Encomende agora!</button>
+            </div>
+        </section>
+
+        <div class="voltar-cima">
+            <a class="nav-link" href="#topo">↑</a>
+        </div>
+
+        <section class="imagens">
+            <figure>
+                <img src="../static/img/imagem banner.jpeg" alt="imagem 1">
+                <img src="../static/img/imagem2.jpeg" alt="imagem 2">
+                <img src="../static/img/imagem3.jpeg" alt="imagem 3">
+                <img src="../static/img/imagem4.jpeg" alt="imagem4">
+            </figure>
+        </section>
+
+        <article>
+            <h1 style="font-weight: bold;">Feito à mão, feito com carinho ♡</h1>
+            <h2></h2>
+            <p>A Tiny Thali nasceu em 2024, mas sua história começou alguns anos antes. Em 2020, Thaliane Galvão descobriu no tricô e no crochê uma paixão que cresceu a cada nova peça. Hoje, cada criação da Tiny Thali carrega um pouquinho dessa história: peças feitas à mão, com calma, cuidado e muito amor pelo que é único.</p>
+        </article>
+
+        <section class="cards">
+            <div id="card">
+                <h2></h2>
+                <h1>Tricô</h1>
+                <p>Peças feitas à mão, ponto a ponto.</p>
+            </div>
+            <div id="card">
+                <h2></h2>
+                <h1>Crochê</h1>
+                <p>Fios que ganham forma e personalidade.</p>
+            </div>
+            <div id="card">
+                <h2></h2>
+                <h1>Encomendas</h1>
+                <p>Crie uma peça do seu jeitinho.</p>
+            </div>
+
+        </section>
+
+{% endblock %}
