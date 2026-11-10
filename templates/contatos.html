@@ -20,17 +20,17 @@
 
         <section class="contatos">
             <div>
-            <form>
+            <form action="{{ url_for('cont') }}" method="post">
                 <h1 style="font-weight: bold">Envie sua mensagem</h1>
                 <h2></h2>
-                <label for="nome">Seu nome:</label><br>
+                Seu nome: <br>
                 <input type="text" id="nome" name="nome"><br>
-                <label for="email">Seu e-mail:</label><br>
+                Seu email: <br>
                 <input type="text" id="email" name="email"><br>
-                <label for="telefone">Seu telefone:</label><br>
+                Seu telefone: <br>
                 <input type="text" id="telefone" name="telefone"><br>
-                <label for="desc">Descrição do pedido:</label><br>
-                <input type="text" id="desc" name="desc"><br>
+                Descrição do pedido: <br>
+                <input type="text" id="mensagem" name="mensagem"><br>
                 <input type="submit" value="Enviar">
                 <div class="alert alert-warning alert-dismissible">
                     <button type="button" class="btn-close" data-bs-dismiss="alert"></button>

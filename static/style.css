@@ -435,6 +435,23 @@ form h2{
 
 }
 
+
+
+/* LISTAR */
+
+#listaMensagens {
+    margin: 3% 10%;
+    border: solid;
+    border-color: #4f285b;
+    padding: 3%;
+    
+}
+
+#listaMensagens h1 {
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
 footer {
     padding: 2%;
     text-align: center;

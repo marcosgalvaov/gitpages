@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block title %}
+Lista de Mensagens
+{% endblock %}
+
+{% block main %}
+
+<article id="listaMensagens">
+    <h1>Lista de Mensagens</h1>
+    <ul>
+        {% for mensagem in mensagens %}
+            <li> PEDIDO: {{mensagem.id}} || NOME: {{ mensagem.nome }} | EMAIL: {{ mensagem.email }} | TELEFONE: {{ mensagem.telefone }} | MENSAGEM: {{ mensagem.mensagem }} </li>
+            <p></p>
+        {% else %}
+            <li>Nenhuma mensagem encontrada.</li>
+        {% endfor %}
+    </ul>
+</article>
+
+{% endblock %}
